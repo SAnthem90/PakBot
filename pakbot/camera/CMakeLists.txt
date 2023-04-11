@@ -158,10 +158,10 @@ include_directories(
 ## Mark executable scripts (Python etc.) for installation
 ## in contrast to setup.py, you can choose the destination
 
- catkin_install_python(PROGRAMS
-   /home/pi/catkin_ws/src/camera/src/opencv_picam.py
-   DESTINATION /home/pi/catkin_ws/src/camera/src
- )
+ #catkin_install_python(PROGRAMS
+ #  /home/pi/catkin_ws/src/camera/src/opencv_picam.py
+ #  DESTINATION /home/pi/catkin_ws/src/camera/src
+ #)
 
 ## Mark executables for installation
 ## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_executables.html
@@ -185,10 +185,10 @@ include_directories(
 # )
 
 ## Mark other files for installation (e.g. launch and bag files, etc.)
- install(FILES
- /home/pi/catkin_ws/src/camera/launch/camera.launch
- DESTINATION /home/pi/catkin_ws/src/camera/launch
- )
+# install(FILES
+# /home/pi/catkin_ws/src/camera/launch/camera.launch
+# DESTINATION /home/pi/catkin_ws/src/camera/launch
+# )
 
 #############
 ## Testing ##
