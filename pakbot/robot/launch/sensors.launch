@@ -1,0 +1,3 @@
+<launch>
+<node name="sensors" pkg="robot" type="sensors.py" output="screen" />
+</launch>
